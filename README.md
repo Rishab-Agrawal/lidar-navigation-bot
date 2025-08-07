@@ -4,7 +4,15 @@ This ROS-based project simulates an autonomous robot navigating a greenhouse env
 
 ---
 
-## Core Features
+## Demo
+
+The demo shows the traversal of the robot in the greenhouse simulation.
+
+![Demo of greenhouse robot](demo.gif)
+
+---
+
+## Features
 
 - LiDAR-Based Wall Following: Uses laser scan data to detect proximity to greenhouse walls and rows.
 - Dynamic Path Adjustment: Adjusts its heading using pose and laser-derived error calculations to maintain lane alignment.
@@ -18,12 +26,6 @@ This ROS-based project simulates an autonomous robot navigating a greenhouse env
 - Main Node: Single Python script with complete control logic.
 - Sensors Used: Simulated LiDAR (`/ebot/laser/scan`) and odometry (`/odom`).
 - Control Output: Velocity commands published to `/cmd_vel`.
-
----
-
-## Demo
-
-Watch the simulation traversal here: [YouTube Video (Unlisted)](https://youtu.be/RKHOXNJVSU0?si=IhZvXhnFBXIauO0W)
 
 ---
 
